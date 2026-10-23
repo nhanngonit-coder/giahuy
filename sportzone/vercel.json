@@ -1,0 +1,7 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "regions": ["sin1"],
+  "functions": {
+    "api/index.js": { "includeFiles": "{public/img/**,db/**}" }
+  }
+}
